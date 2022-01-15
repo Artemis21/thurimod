@@ -1,0 +1,8 @@
+[flake8]
+ignore =
+    ANN101,  # Don't annotate self arg.
+    ANN102,  # Don't annotate cls arg.
+    W503     # Deprecated - line break should go before binary operator.
+# Don't annotate return type None.
+suppress-none-returning = true
+max-line-length = 100
